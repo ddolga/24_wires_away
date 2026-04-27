@@ -1,0 +1,204 @@
+(footprint "SolderWire-0.127sqmm_1x06_P3.7mm_D0.48mm_OD1mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Soldered wire connection, for 6 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+	(tags "connector wire 0.127sqmm")
+	(property "Reference" "J3"
+		(at 9.25 -2.05 0)
+		(layer "F.SilkS")
+		(uuid "d6f898a0-a5d8-47df-b306-c19e9b658479")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x06_Pin"
+		(at 9.25 2.05 0)
+		(layer "F.Fab")
+		(uuid "bc86d0da-2c25-47fa-b988-889535bb7aab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fdd8517-b072-4a80-b9ca-6aff3da9e570")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x06, script generated"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5273ae5f-2e6b-4e93-953a-dce16bc40396")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "connector/wire"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4f6e6356-8198-4312-ae96-94cc6714469d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/")
+	(sheetfile "24_wires_away.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.35 -1.35)
+		(end 1.35 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "efabf45f-29b9-414d-8d4d-d07899897903")
+	)
+	(fp_rect
+		(start 2.35 -1.35)
+		(end 5.05 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7f12a334-1897-477d-b2f0-c5bbda50ecfd")
+	)
+	(fp_rect
+		(start 6.05 -1.35)
+		(end 8.75 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "181a07c5-0cd0-4848-bd5e-f9c5e8ba75cf")
+	)
+	(fp_rect
+		(start 9.75 -1.35)
+		(end 12.45 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "54bf4b7a-fa45-4ef9-ad37-f0e93607787d")
+	)
+	(fp_rect
+		(start 13.45 -1.35)
+		(end 16.15 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "de1f7b47-a897-48fe-93d4-71cb863105fa")
+	)
+	(fp_rect
+		(start 17.15 -1.35)
+		(end 19.85 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eef26346-ea8c-40e9-ac45-9589b6b66e17")
+	)
+	(fp_circle
+		(center 3.7 0)
+		(end 4.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9b2ff2d5-109f-4062-956b-99d75cf69f9b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 9.25 0 90)
+		(layer "F.Fab")
+		(uuid "d01ab92b-053e-4823-8f1d-c67b62fd1d66")
+		(effects
+			(font
+				(size 0.68 0.68)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at 0 0)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5bef8468-29e7-4b4a-81a9-5142c9c2e5fd")
+	)
+	(pad "2" smd oval
+		(at 3.7 0)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7fb3cdf3-8918-43c2-85c9-493535af1c36")
+	)
+	(pad "3" smd oval
+		(at 7.5 0)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "77eab74d-89aa-49da-9ced-bdc67d956b7a")
+	)
+	(pad "4" smd oval
+		(at 11 0)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ad37bbea-0af4-4462-b1cc-e2554a642f47")
+	)
+	(pad "5" smd oval
+		(at 14.8 0)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa3a6ddd-1d10-4ef8-a7a8-730598836cf0")
+	)
+	(pad "6" smd oval
+		(at 18.5 0)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "61d719aa-bb6b-4148-924f-82eda5cbd8db")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.127sqmm_1x06_P3.7mm_D0.48mm_OD1mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
